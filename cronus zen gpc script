@@ -1,0 +1,473 @@
+/*=======Subscribe to my channel! www.youtube.com/subgeta=======================
+▓▓▓▓▓▓▓▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▓▓▓▓▓▓▓ ▐▓▓▓▓▓▓▓▓▓▓▌ ▓▓▓▓▓▓▓▓▓▓▓  ▓▓▓▓▌ ▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓  ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓  ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓
+▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓  ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓
+▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓  ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓
+▓▓▓▓▌ ▐▓▓▓  ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓  ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓
+▓▓▓▓▌ ▐▓▓   ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓  ▓▓▓▓▌  ▓▓▓▓ ▐▓▓▓▓
+▓▓▓▓▌       ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓  ▓▓▓▓▌   ▓▓▓ ▐▓▓▓▓
+▓▓▓▓▌  ▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▌ ▐▓▓▓  ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓ ▓▓▓▓▓▓▌      ▐▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▓▓▓▓▓   ▐▓▓▓▓▓▓▓▓▓▓▌ ▓▓▓▓▓▓▓▓    ▓▓▓▓▓▓▌  ▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▌ ▓▓▓▓  ▐▓▓▓▓▓▓▓▓▓▓▌ ▓▓▓▓▓    ▓▓  ▓▓▓▓▌  ▓▓▓▓ ▐▓▓▓▓
+      ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▌ ▐▓▓▓▓        ▓▓▓▓▌ ▓▓▓▓▓  ▐▓▓▓  ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓
+  ▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▌ ▐▓▓▓▓    ▓▓─ ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓  ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓
+ ▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▌ ▐▓▓▓▓  ▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓  ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓
+▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓  ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓
+▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓  ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓
+▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓▓▓▓▓▓▓▌ ▓▓▓▓▌ ▐▓▓▓▓ ▐▓▓▓▓─ ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓  ▓▓▓▓▌ ▓▓▓▓▓ ▐▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓ ▐▓▓▓▓▓▓▓▓▓▓▌ ▓▓▓▓▓▓▓▓▓▓▓ ▐▓▓▓▓▓▓▓▓▓▓▌ ▓▓▓▓▓▓▓▓▓▓▓  ▓▓▓▓▌ ▓▓▓▓▓▓▓▓▓▓▓
+===================================@subgeta=====================================
+
+--------------IF YOU PURCHASED THIS SCRIPT YOU HAVE BEEN SCAMMED!---------------
+
+  Pokemon, Pokemon Scarlet and any other IP belong to their respective owners.
+================================================================================
+
+	    	         ██╗ █╗  ██       █████╗
+				       ██████╗╝ ████████╗  ██══╝  ██╗  ██╗
+		    	       ██╔═╝ ██╔══██╔═╝ █████╗   █║ ███║
+		           █╗██║█╗ ╚═╝ ██╔╝    ██══╝   ╚╝███╔╝
+	             ╚╝██║╚╝    ██╔╝     ████╗   ████╔╝
+			   	       ╚═╝      ╚═╝      ╚═══╝   ╚═══╝
+	     ████████╗  ██╗                ███╗             ███╗
+	          ███╝  ██████████╗        ███║             ██████╗
+	         ███═╗    ███╔══██║██████╗ ███║  █╗ █╗█╗ █╗ ███╔══╝
+	       ███║██╚╗  ███╔╝ ██╔╝ ╚════╝ ███║ ██║ ╚╝╚╝██║ ███║
+	     ███╔═╝ ██║ ███╔╝ ██╔╝         ██████╔╝  ████╔╝ ███║
+	     ╚══╝   ╚═╝ ╚══╝  ╚═╝          ╚═════╝   ╚═══╝  ╚══╝
+
+                            POKEMON SCARLET/VIOLET 
+================================================================================
+
+Author: @Subgeta
+Additional Authors/Special Thanks: ???
+Script Ver: 1.0
+
+Game: POKEMON SCARLET
+Region: JPN						 //Japanese version.
+Ver: 1.0.0, 1.0.1, 				 //**duping might not work in updated Ver.1.1.0
+
+Switch Version: V2				 //Tested on a Mariko Switch/V2.
+Cart or Digital: Cart       	 //Tested on a phisical cart.
+
+Game Settings:(MUST HAVE ENABLED AS FOLLOWS!)
+Language: Eng
+Text Speed: Fast
+Auto Save: OFF
+
+================================================================================
+Due to the games performarce there might be compatability issues with this
+script. As some versions of switch might run slower or faster depending on the
+models. As well as having the game on cart or digital version.
+
+If there is a need to change timings, I reccomend adding more time between
+values etc. rather than reducing them. There's a lot of different preparations 
+or conditions that need to be met before running each mod.
+
+Listed on following methods in each mod explanation:
+================================================================================
+Navigation
+
+HOLD L2 and Press DOWN to cycle thru the mods.
+
+TURBO
+HOLD L2 and Press CIRCLE to turn on Turbo button A. Repeat to turn off.
+
+RELEASE
+HOLD L2 and Press L3 to turn on Release. Repeat to turn off.
+
+BOX
+HOLD L2 and Press R3 to turn on BOX. Repeat to turn off.
+
+================================================================================
+Mod 1 - auto dupe (OFF -CURRENTLY A WORK IN PROGRESS...
+================================================================================
+Mod 2 - Box
+This mod will start to clear the box you are currently in.
+Select the first pokemon in that box (top row, first pokemon).
+Enable this mod and it will start to go thru each pokemon, releasing them.
+and so on until the last one in that box.
+
+Good for getting rid of non-shiny eggs hatches!
+================================================================================
+Mod 3 - Turbo 
+-This is a turbo button for A, to spam when fighting in the school ace tournament.
+-SAVE YOUR GAME.
+-Rest at the nearest PokeCenter stop in the school. (incase you lose you will spawn there.)
+-HAVE ONLY 1 Pokemon in your party that can 1 shot mostly anything. 
+-Give the "Amulet Coin" to the pokemon to hold.
+ (Legendary Chi-Yu lv.100 trained with bottle caps max stats with amulet coin).
+-Place character in front of NPC that registers you for the tournament in the School entrance hall.
+-Enable Mod.
+This is good to make money afk. Done this twice and got max 9,999,999 overnight.
+================================================================================
+Mod 4 - RELEASE
+-This is a short quick mod that releases which ever pokemon you are on while in boxes.
+-Highlight the pokemon and toggle this mod, and pokemon gone.
+================================================================================
+Mod 5 - Auto picnic
+Coming Soon
+-This will set up picnic, then move character close to basket, and will pick up eggs.
+-or can be used in conjuction to pick up inf. dupe items.
+================================================================================
+Mod 6 - AutoHatch
+Coming Soon
+-This will just move the character around in a circle to gain steps for egg hatching.
+-Need to find a secluded spot where no interaction takes place.
+-As running in circles and pressing A to not lock the mod when an egg hatches.
+
+================================================================================*/
+enum {
+	TURBO,RELEASE,BOX
+}
+const string Modnames[] = {
+	"Turbo A","Release","Box Empty"
+}
+define Screen_Saver_Time = 15000;
+int activeMod;
+int screen_saver_timer = Screen_Saver_Time;
+//===============================================================
+int toggle_TURBO;
+int toggle_RELEASE;
+int toggle_BOX;
+int toggle;
+//===============================================================
+//OLED
+//Text to display (space sensitive on what is shown on screen)
+const string OLED_DISPLAY_0 ="  @Subgeta";
+const string OLED_DISPLAY_1 ="      Presents";
+const string OLED_DISPLAY_2 =" Pokemon SV";
+const string OLED_DISPLAY_3 ="     MODS for";
+const string OLED_DISPLAY_4 ="   V1.0 & V1.0.1";
+const string OLED_DISPLAY_5 ="     Subscribe";
+const string OLED_DISPLAY_6 ="    youtube.com/";
+const string OLED_DISPLAY_7 ="      Subgeta";
+int LED_IND_MAIN = 1;
+//===============================================================
+init {
+	if (LED_IND_MAIN == 1) combo_run(OLED_DISPLAY);
+	}
+//===============================================================
+const string OLED_DISPLAY_8 ="MOD for";
+main {
+	if(get_val(PS4_L2) && event_press(PS4_DOWN)) {
+		activeMod ++;
+		if(activeMod >= 3) {
+			activeMod = 0;
+					}
+		cls_oled(OLED_BLACK);
+		print(18,26,OLED_FONT_MEDIUM,OLED_WHITE,Modnames[activeMod]);
+		print(center_x(sizeof(OLED_DISPLAY_8) - 1,OLED_FONT_SMALL_WIDTH),10,OLED_FONT_SMALL,OLED_WHITE,OLED_DISPLAY_8[0] );
+		screen_saver_timer = Screen_Saver_Time;
+			}
+	if(activeMod == TURBO) {
+		if (get_val(PS4_L2) && event_press(PS4_CIRCLE)){
+			toggle_TURBO = !toggle_TURBO;
+			combo_run(blinkON);
+					}
+		if (toggle_TURBO){
+			combo_run(TURBO);
+			colorled(0,1,0,1);
+			// 
+		}
+		//else combo_stop(TURBO);
+		else if (!toggle_TURBO){
+			combo_stop(TURBO);
+			colorled(0,0,0,0);
+					}
+			}
+	if(activeMod == RELEASE) {
+		if (get_val(PS4_L2) && event_press(PS4_L3)){
+			toggle_RELEASE = !toggle_RELEASE;
+			combo_run(blinkON);
+					}
+		if (toggle_RELEASE){
+			combo_run(RELEASE);
+			colorled(1,0,1,0);
+			//Teal
+		}
+		//else combo_stop(TURBO);
+		else if (!toggle_RELEASE){
+			combo_stop(RELEASE);
+			colorled(0,0,0,0);
+					}
+			}
+	if(activeMod == BOX) {
+		if (get_val(PS4_L2) && event_press(PS4_R3)){
+			toggle_BOX = !toggle_BOX;
+			combo_run(blinkON);
+					}
+		if (toggle_BOX) {
+			combo_run(BOX);
+			colorled(1,1,0,0);
+			//Purple
+		}
+		//else combo_stop(TURBO);
+		else if (!toggle_BOX){
+			combo_stop(BOX);
+			colorled(0,0,0,0);
+					}
+			}
+	if(screen_saver_timer) {
+		if(screen_saver_timer <= get_rtime())            cls_oled(OLED_BLACK);
+		screen_saver_timer = max(0, screen_saver_timer - get_rtime());
+			}
+	}
+combo BOX {
+	wait(500);
+	//Start at 1 row, 1st pokemans to the left.
+	call(RELEASE);
+	//combo box is paused until combo release is finished.
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVEDOWN);
+	//2nd row
+	wait(100);
+	wait(500);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVELEFT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVELEFT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVELEFT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVELEFT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVELEFT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVEDOWN);
+	//3rd row
+	wait(100);
+	wait(500);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVEDOWN);
+	//4th row
+	wait(100);
+	wait(500);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVELEFT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVELEFT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVELEFT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVELEFT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVELEFT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVEDOWN);
+	//5th row
+	wait(100);
+	wait(500);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	call(MOVERIGHT);
+	call(RELEASE);
+	combo_stop(RELEASE);
+	wait(100);
+	wait(600);
+	combo_stop(BOX);
+	}
+combo MOVEDOWN {
+	set_val(PS4_DOWN, 100);
+	wait(100);
+	wait(600);
+	}
+combo MOVERIGHT {
+	set_val(PS4_RIGHT, 100);
+	wait(100);
+	wait(600);
+	}
+combo MOVELEFT {
+	set_val(PS4_LEFT, 100);
+	wait(100);
+	wait(600);
+	}
+combo RELEASE {
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(500);
+	set_val(PS4_UP, 100);
+	wait(100);
+	wait(400);
+	set_val(PS4_UP, 100);
+	wait(100);
+	wait(400);
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(600);
+	set_val(PS4_UP, 100);
+	wait(100);
+	wait(500);
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(1500);
+	set_val(PS4_CROSS, 100);
+	wait(100);
+	wait(500);
+	}
+//Once this combo has ended, the combo it was called from can resume
+combo TURBO {
+	set_val(PS4_CIRCLE, 100);
+	wait(300);
+	wait(100);
+	}
+combo OLED_DISPLAY {
+	// clear OLED screen
+	cls_oled(0);
+	colorled(0,1,1,0);
+	print(0, 16, 1, 1, OLED_DISPLAY_0[0]);
+	print(0, 40, 0, 1, OLED_DISPLAY_1[0]);
+	wait(2500);
+	cls_oled(0);
+	// clear OLED screen
+	cls_oled(0);
+	colorled(0,1,0,1);
+	print(0, 10, 1, 1, OLED_DISPLAY_2[0]);
+	print(0, 30, 0, 1, OLED_DISPLAY_3[0]);
+	print(0, 45, 0, 1, OLED_DISPLAY_4[0]);
+	wait(2500);
+	cls_oled(0);
+	// clear OLED screen
+	cls_oled(0);
+	colorled(1,0,0,1);
+	print(0, 10, 0, 1, OLED_DISPLAY_5[0]);
+	print(0, 30, 0, 1, OLED_DISPLAY_6[0]);
+	print(0, 50, 0, 1, OLED_DISPLAY_7[0]);
+	wait(2500);
+	cls_oled(0);
+	// clear OLED screen
+	combo_stop(OLED_DISPLAY);
+	}
+combo blinkON {
+	colorled(0,0,1,0);
+	wait(200);
+	colorled(0,0,0,0);
+	wait(200);
+	colorled(0,0,1,0);
+	wait(200);
+	colorled(0,0,0,0);
+	wait(200);
+	combo_stop(blinkON);
+	}
+function colorled(a,b,c,d) {
+	set_led(LED_1,a);
+	set_led(LED_2,b);
+	set_led(LED_3,c);
+	set_led(LED_4,d);
+	}
+function center_x(f_chars,f_font) {
+	return (OLED_WIDTH / 2) - ((f_chars * f_font) / 2);
+	}
