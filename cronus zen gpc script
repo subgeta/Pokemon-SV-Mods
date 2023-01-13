@@ -24,11 +24,12 @@
 ================================================================================
 
 	    	         ██╗ █╗  ██       █████╗
-		       ██████╗╝ ████████╗  ██══╝  ██╗  ██╗
-		    	 ██╔═╝ ██╔══██╔═╝ █████╗   █║ ███║
-		       █╗██║█╗ ╚═╝ ██╔╝    ██══╝   ╚╝███╔╝
+				   ██████╗╝ ████████╗  ██══╝  ██╗  ██╗
+		    	     ██╔═╝ ██╔══██╔═╝ █████╗   █║ ███║
+		           █╗██║█╗ ╚═╝ ██╔╝    ██══╝   ╚╝███╔╝
 	               ╚╝██║╚╝    ██╔╝     ████╗   ████╔╝
-			 ╚═╝      ╚═╝      ╚═══╝   ╚═══╝
+			   	     ╚═╝      ╚═╝      ╚═══╝   ╚═══╝
+
 	     ████████╗  ██╗                ███╗             ███╗
 	          ███╝  ██████████╗        ███║             ██████╗
 	         ███═╗    ███╔══██║██████╗ ███║  █╗ █╗█╗ █╗ ███╔══╝
@@ -41,19 +42,20 @@
 
 Author: @Subgeta
 Additional Authors/Special Thanks: ???
-Script Ver: 1.0
+Script Ver: 2.0
 
-Game: POKEMON SCARLET
-Region: JPN						 //Japanese version.
-Ver: 1.0.0, 1.0.1, 				 //**duping might not work in updated Ver.1.1.0
+Game:      POKEMON SCARLET
+Region:    JPN				        //Japanese version.
+Ver:       1.0.0, 1.0.1, 1.1.0 		
 
-Switch Version: V2				 //Tested on a Mariko Switch/V2.
-Cart or Digital: Cart       	 //Tested on a phisical cart.
+Switch Version:  V2				//Tested on a Mariko Switch/V2.
+Cart or Digital: Cart       	//Tested on a phisical cart.
+CONTROLLER:      PS4 DS4
 
 Game Settings:(MUST HAVE ENABLED AS FOLLOWS!)
-Language: Eng
+Language:   Eng
 Text Speed: Fast
-Auto Save: OFF
+Auto Save:  OFF
 
 ================================================================================
 Due to the games performarce there might be compatability issues with this
@@ -62,7 +64,7 @@ models. As well as having the game on cart or digital version.
 
 If there is a need to change timings, I reccomend adding more time between
 values etc. rather than reducing them. There's a lot of different preparations 
-or conditions that need to be met before running each mod.
+or conditions that need to be met or precautions before running each mod.
 
 Listed on following methods in each mod explanation:
 ================================================================================
@@ -71,26 +73,23 @@ Navigation
 HOLD L2 and Press DOWN to cycle thru the mods.
 
 TURBO
-HOLD L2 and Press CIRCLE to turn on Turbo button A. Repeat to turn off.
+HOLD L2 and Press CIRCLE to turn on. Repeat to turn off.
 
 RELEASE
-HOLD L2 and Press L3 to turn on Release. Repeat to turn off.
+HOLD L2 and Press L3 to turn on. Repeat to turn off.
 
 BOX
-HOLD L2 and Press R3 to turn on BOX. Repeat to turn off.
+HOLD L2 and Press R3 to turn on. Repeat to turn off.
+
+PICNIC
+HOLD L2 and Press TRIANGLE to turn on. Repeat to turn off.
+
+HATCH
+HOLD L2 and Press SQUARE to turn on. Repeat to turn off.
+
 
 ================================================================================
-Mod 1 - auto dupe (OFF -CURRENTLY A WORK IN PROGRESS...
-================================================================================
-Mod 2 - Box
-This mod will start to clear the box you are currently in.
-Select the first pokemon in that box (top row, first pokemon).
-Enable this mod and it will start to go thru each pokemon, releasing them.
-and so on until the last one in that box.
-
-Good for getting rid of non-shiny eggs hatches!
-================================================================================
-Mod 3 - Turbo 
+Mod 1 - Turbo 
 -This is a turbo button for A, to spam when fighting in the school ace tournament.
 -SAVE YOUR GAME.
 -Rest at the nearest PokeCenter stop in the school. (incase you lose you will spawn there.)
@@ -101,27 +100,62 @@ Mod 3 - Turbo
 -Enable Mod.
 This is good to make money afk. Done this twice and got max 9,999,999 overnight.
 ================================================================================
-Mod 4 - RELEASE
+Mod 2 - Release
 -This is a short quick mod that releases which ever pokemon you are on while in boxes.
 -Highlight the pokemon and toggle this mod, and pokemon gone.
 ================================================================================
-Mod 5 - Auto picnic
-Coming Soon
--This will set up picnic, then move character close to basket, and will pick up eggs.
--or can be used in conjuction to pick up inf. dupe items.
+Mod 3 - Box
+This mod will start to clear the box you are currently in.
+Select the first pokemon in that box (top row, first pokemon).
+Enable this mod and it will start going thru each pokemon, releasing them.
+and so on until the last one in that box.
+
+Good for getting rid of non-shiny eggs hatches!
+
 ================================================================================
-Mod 6 - AutoHatch
-Coming Soon
+Mod 4 - Auto picnic
+This will set up picnic, then move character close to basket, and will pick up eggs.
+
+-SAVE YOUR GAME!
+-Manually setup a picnic, make your desired sandwitch (tested with EGG POWER 2).
+-finish/exit the picnic.
+
+====THIS IS IMPORTANT===
+-Make sure you are in a flat land area to avoid any error during script operation.
+-Make sure you leave the cursor on the bag icon in the menu, then press B/Cross to exit.
+-HOLD L2 and Press Triangle to activate the mod.
+-After you have enable the mod, DO NOT TOUCH OR MAKE NEW MOVEMENTS ON THE CONTROLER.
+set it down somewhere safe.
+-The mod will go thru a 3 EGG cycles every 8 mins. (I've gotten 10 eggs per each cycle, 30 total during testing.)
+
+****Not Tested, but may be used in conjuction to pick up picnic infinite dupe item glitch.
+
+================================================================================
+Mod 5 - AutoHatch
 -This will just move the character around in a circle to gain steps for egg hatching.
--Need to find a secluded spot where no interaction takes place.
--As running in circles and pressing A to not lock the mod when an egg hatches.
+-To make eggs hatch faster have Fletchinder with the Flame Body ability in your first slot. 
+
+
+====THIS IS IMPORTANT===
+-YOU WILL NEED to find a secluded spot where no interaction takes place.
+
+-The BEST AREA I've found is an Island with Naiara the Model located South Province (Area Five).
+big enough area, and no pokemon spawn there, perfect size to sprint around in circles.
+
+-Once you find the area, HOLD L2 and Press Square to activate the mod.
+Korai/Miraidon will start moving around in a circle, then will sprint.
+While the mod is running, the button A/Circle will be auto pressed so that the screen
+does not stay locked on the screen when the pokemon hatches.
+
+It is set up to run at a 10 min. cycle to hatch 5 eggs.
+So it is adviced to check on it to swap in new eggs.
 
 ================================================================================*/
 enum {
-	TURBO,RELEASE,BOX
+	TURBO,RELEASE,BOX,PICNIC,HATCH
 }
 const string Modnames[] = {
-	"Turbo A","Release","Box Empty"
+	"Turbo A","Release","Box Empty","Picnic","Egg Hatch"
 }
 define Screen_Saver_Time = 15000;
 int activeMod;
@@ -130,6 +164,8 @@ int screen_saver_timer = Screen_Saver_Time;
 int toggle_TURBO;
 int toggle_RELEASE;
 int toggle_BOX;
+int toggle_PICNIC;
+int toggle_HATCH;
 int toggle;
 //===============================================================
 //OLED
@@ -137,7 +173,7 @@ int toggle;
 const string OLED_DISPLAY_0 ="  @Subgeta";
 const string OLED_DISPLAY_1 ="      Presents";
 const string OLED_DISPLAY_2 =" Pokemon SV";
-const string OLED_DISPLAY_3 ="     MODS for";
+const string OLED_DISPLAY_3 ="     MODS v2 for";
 const string OLED_DISPLAY_4 ="   V1.0 & V1.0.1";
 const string OLED_DISPLAY_5 ="     Subscribe";
 const string OLED_DISPLAY_6 ="    youtube.com/";
@@ -150,16 +186,17 @@ init {
 //===============================================================
 const string OLED_DISPLAY_8 ="MOD for";
 main {
-	if(get_val(PS4_L2) && event_press(PS4_DOWN)) {
+	if(get_val(PS4_L2) && event_press(PS4_DOWN)){
 		activeMod ++;
-		if(activeMod >= 3) {
+		if(activeMod >= 5) {
 			activeMod = 0;
-					}
+		}
 		cls_oled(OLED_BLACK);
 		print(18,26,OLED_FONT_MEDIUM,OLED_WHITE,Modnames[activeMod]);
 		print(center_x(sizeof(OLED_DISPLAY_8) - 1,OLED_FONT_SMALL_WIDTH),10,OLED_FONT_SMALL,OLED_WHITE,OLED_DISPLAY_8[0] );
 		screen_saver_timer = Screen_Saver_Time;
-			}
+	}
+
 	if(activeMod == TURBO) {
 		if (get_val(PS4_L2) && event_press(PS4_CIRCLE)){
 			toggle_TURBO = !toggle_TURBO;
@@ -167,51 +204,172 @@ main {
 					}
 		if (toggle_TURBO){
 			combo_run(TURBO);
-			colorled(0,1,0,1);
-			// 
-		}
+			colorled(0,1,0,0); // dim red
+		    }
 		//else combo_stop(TURBO);
 		else if (!toggle_TURBO){
 			combo_stop(TURBO);
 			colorled(0,0,0,0);
 					}
 			}
+			
 	if(activeMod == RELEASE) {
-		if (get_val(PS4_L2) && event_press(PS4_L3)){
+		if(get_val(PS4_L2) && event_press(PS4_L3)){
 			toggle_RELEASE = !toggle_RELEASE;
 			combo_run(blinkON);
-					}
-		if (toggle_RELEASE){
-			combo_run(RELEASE);
-			colorled(1,0,1,0);
-			//Teal
-		}
-		//else combo_stop(TURBO);
+				if (toggle_RELEASE){
+				combo_run(RELEASE);
+				colorled(0,1,1,0); //
+				}
+			}
+		//else combo_stop();
 		else if (!toggle_RELEASE){
 			combo_stop(RELEASE);
 			colorled(0,0,0,0);
-					}
-			}
+			}	
+}
+		
 	if(activeMod == BOX) {
 		if (get_val(PS4_L2) && event_press(PS4_R3)){
 			toggle_BOX = !toggle_BOX;
 			combo_run(blinkON);
-					}
-		if (toggle_BOX) {
-			combo_run(BOX);
-			colorled(1,1,0,0);
-			//Purple
-		}
-		//else combo_stop(TURBO);
+				if (toggle_BOX){
+				combo_run(BOX);
+				colorled(1,1,0,0);//Purple
+				}
+			}
+		//else combo_stop();
 		else if (!toggle_BOX){
 			combo_stop(BOX);
 			colorled(0,0,0,0);
-					}
 			}
+}
+	
+	if(activeMod == PICNIC){
+		if (get_val(PS4_L2) && event_press(PS4_TRIANGLE)){
+			toggle_PICNIC = !toggle_PICNIC;
+			combo_run(blinkON);
+				if (toggle_PICNIC){
+				combo_run(PICNIC);
+				colorled(0,1,1,0); //dim yellow
+				}
+			}
+		//else combo_stop();
+		else if (!toggle_PICNIC){
+			combo_stop(PICNIC);
+			colorled(0,0,0,0);
+			}
+	}
+			
+	if(activeMod == HATCH){
+		if (get_val(PS4_L2) && event_press(PS4_SQUARE)){
+			toggle_HATCH = !toggle_HATCH;
+			combo_run(blinkON);
+			}
+		if (toggle_HATCH){
+			combo_run(HATCH);
+			colorled(1,0,1,0);//sky blue
+			}
+		//else combo_stop();
+		else if (!toggle_HATCH){
+			combo_stop(HATCH);
+			colorled(0,0,0,0);
+			}
+}
+			
 	if(screen_saver_timer) {
 		if(screen_saver_timer <= get_rtime())            cls_oled(OLED_BLACK);
 		screen_saver_timer = max(0, screen_saver_timer - get_rtime());
 			}
+	}
+combo PICNIC {
+	wait(1100);
+	colorled(0,1,1,0);
+	set_val(PS4_TRIANGLE, 100);
+	wait(100);
+	wait(1200);
+	call(MOVEDOWN);
+	call(MOVEDOWN);
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(8250);
+	set_val(PS4_OPTIONS, 100);
+	wait(100);
+	wait(1000);
+	set_val(PS4_LX, -50);
+	wait(1000);
+	wait(200);
+	set_val(PS4_LY, -70);
+	wait(1500);
+	wait(200);
+	set_val(PS4_LX, +50);
+	wait(1710);
+	wait(400);
+	set_val(PS4_L1, 100);
+	wait(100);
+	wait(100);
+	call(EGGTIMER);
+	call(CIRCLE6);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(EGGTIMER);
+	call(CIRCLE6);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(EGGTIMER);
+	call(CIRCLE6);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	call(CIRCLE4);
+	set_val(PS4_SQUARE, 100);
+	wait(100);
+	wait(800);
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(600);
+	combo_stop(PICNIC);
+	}
+combo EGGTIMER {
+	wait(210000); 		  //waits 3.5 min. in milliseconds
+	set_val(PS4_RY, 50);  //Moves in-game camera to prevent switch from sleep while away.
+	wait(100);
+	wait(200);
+	set_val(PS4_RY, -50); //Moves in-game camera to prevent switch from sleep while away.
+	wait(100);
+	wait(200);
+	wait(210000);	      //waits 3.5 min. in milliseconds
+}
+combo SPRINT {
+	set_val(PS4_L3, 100);
+	wait(400);
+}
+combo HATCH {
+    if(combo_running(HATCH)) combo_run(SPRINT); combo_run(TURBO);
+	set_val(PS4_LX, -70);
+	set_val(PS4_LY, -78);
+	set_val(PS4_RX, -65);
+	set_val(PS4_RY, +89);
+	wait(120000);
 	}
 combo BOX {
 	wait(500);
@@ -395,7 +553,43 @@ combo MOVELEFT {
 	wait(100);
 	wait(600);
 	}
+combo CIRCLE6 {
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(800);
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(800);
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(800);
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(800);
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(800);
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(800);
+	}
+combo CIRCLE4 {
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(800);
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(800);
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(800);
+	set_val(PS4_CIRCLE, 100);
+	wait(100);
+	wait(800);
+	}
 combo RELEASE {
+	wait(750);
+	colorled(1,0,0,0);
 	set_val(PS4_CIRCLE, 100);
 	wait(100);
 	wait(500);
@@ -417,8 +611,9 @@ combo RELEASE {
 	set_val(PS4_CROSS, 100);
 	wait(100);
 	wait(500);
-	}
-//Once this combo has ended, the combo it was called from can resume
+	combo_stop(RELEASE);
+	colorled(0,0,0,0);
+	} //Once this combo has ended, the combo it was called from can resume
 combo TURBO {
 	set_val(PS4_CIRCLE, 100);
 	wait(300);
@@ -427,26 +622,26 @@ combo TURBO {
 combo OLED_DISPLAY {
 	// clear OLED screen
 	cls_oled(0);
-	colorled(0,1,1,0);
+	colorled(1,0,0,0);
 	print(0, 16, 1, 1, OLED_DISPLAY_0[0]);
 	print(0, 40, 0, 1, OLED_DISPLAY_1[0]);
-	wait(2500);
+	wait(1200);
 	cls_oled(0);
 	// clear OLED screen
 	cls_oled(0);
-	colorled(0,1,0,1);
+	colorled(1,1,0,0);
 	print(0, 10, 1, 1, OLED_DISPLAY_2[0]);
 	print(0, 30, 0, 1, OLED_DISPLAY_3[0]);
 	print(0, 45, 0, 1, OLED_DISPLAY_4[0]);
-	wait(2500);
+	wait(1200);
 	cls_oled(0);
 	// clear OLED screen
 	cls_oled(0);
-	colorled(1,0,0,1);
+	colorled(0,1,0,0);
 	print(0, 10, 0, 1, OLED_DISPLAY_5[0]);
 	print(0, 30, 0, 1, OLED_DISPLAY_6[0]);
 	print(0, 50, 0, 1, OLED_DISPLAY_7[0]);
-	wait(2500);
+	wait(1200);
 	cls_oled(0);
 	// clear OLED screen
 	combo_stop(OLED_DISPLAY);
